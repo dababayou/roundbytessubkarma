@@ -1,0 +1,164 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* New styles for the services section */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: left; /* To align text to the left */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 16px 16px 8px; /* Adding margin to the h3 element */
+}
+
+.card p {
+  margin: 0 16px 16px; /* Adding margin to the p element */
+  color: grey;
+}
+
+.view-more {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.view-more:hover {
+  text-decoration: underline; /* Add underline on hover for better UX */
+}
+
+/* Keeping your existing services styles */
+.services-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+.services-heading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.services-subheading {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.brand-section {
+  display: flex; /* Use flexbox to create a side-by-side layout */
+  margin-top: 40px;
+}
+
+.brand-section-left {
+  flex: 1; /* Make the left section take up less space */
+}
+
+.brand-section-heading {
+  color: #da1a84; /* Use your brand color here */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.brand-section-right {
+  flex: 2; /* Make the right section take up more space */
+}
+
+.section-subheading {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.section-description {
+  font-size: 1em;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.services-lists {
+  display: flex; /* Use flexbox to align lists horizontally */
+  gap: 20px; /* Add space between the lists */
+}
+
+.services-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services-list li {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.brand-section-left a {
+  color: #da1a84; /* Set the link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.brand-section-left a:hover {
+  color: #da1a84; /* Keep the link color on hover */
+  text-decoration: underline; /* Add underline on hover for better UX */
+}
