@@ -61,7 +61,7 @@ function App() {
       
       <div className="brand-section">
         <div className="brand-section-left">
-          <h2 className="brand-section-heading">Brand Internalization</h2>
+          <h2 className="brand-section-heading">Brand <br />Internalization</h2>
         </div>
         <div className="brand-section-right">
           <h3 className="section-subheading">Embed & Excel</h3>
@@ -106,7 +106,7 @@ function App() {
       <div className="brand-section">
         <div className="brand-section-left">
           <h2 className="brand-section-heading">Green Branding</h2>
-          <p><a href="#">Learn More</a></p>
+          <p><a href="#">Learn More →</a></p>
         </div>
         <div className="brand-section-right">
           <h3 className="section-subheading">Sustain & Lead</h3>
@@ -131,7 +131,7 @@ function App() {
       
       <div className="brand-section">
         <div className="brand-section-left">
-          <h2 className="brand-section-heading">Start-up Incubation</h2>
+          <h2 className="brand-section-heading">Start-up <br />Incubation</h2>
         </div>
         <div className="brand-section-right">
           <h3 className="section-subheading">Ignite & Ascend</h3>
@@ -148,6 +148,30 @@ function App() {
               <li>Project Incubation</li>
               <li>Business Acceleration</li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="clients-section">
+        <div className="clients-header">
+          <h2>See how we help our clients excel</h2>
+          <a href="#" className="view-more">View more →</a>
+        </div>
+        <div className="card-container">
+          <div className="card">
+            <img src="https://subkarma.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fns0l5lt8%2Fproduction%2F71e48282e6ca1206fb78f7a23e5e3bfbe5ade74d-3445x2264.jpg&w=2048&q=75" alt="Kavalan Whisky" />
+            <h3>Kavalan Whisky</h3>
+            <p>Putting Taiwan On The Whisky Map</p>
+          </div>
+          <div className="card">
+            <img src="https://subkarma.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fns0l5lt8%2Fproduction%2F11b12298d642d0e9149401f5f14adc26d0f9eb93-2100x1400.jpg&w=2048&q=75" alt="Victor Taichung" />
+            <h3>Victor Taichung</h3>
+            <p>Giving CNC machines a voice</p>
+          </div>
+          <div className="card">
+            <img src="https://subkarma.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fns0l5lt8%2Fproduction%2Fe91f492081dfb0744b0fa0855314bb30cb87f0d7-3445x2264.jpg&w=2048&q=75" alt="Taichung Opera House" />
+            <h3>Taichung Opera House</h3>
+            <p>Bringing a national landmark to life</p>
           </div>
         </div>
       </div>

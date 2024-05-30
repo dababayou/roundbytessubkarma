@@ -85,10 +85,10 @@
 }
 
 .view-more:hover {
-  text-decoration: underline; /* Add underline on hover for better UX */
+  color: black;
+  text-decoration: none; 
 }
 
-/* Keeping your existing services styles */
 .services-container {
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -96,8 +96,17 @@
   text-align: left;
 }
 
+.services-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+}
+
 .services-heading {
-  font-size: 2.5em;
+  font-size: 3.5em;
+  font-weight: 550;
   margin-bottom: 20px;
 }
 
@@ -118,7 +127,7 @@
 
 .brand-section-heading {
   color: #da1a84; /* Use your brand color here */
-  font-size: 2em;
+  font-size: 2.1em;
   margin-bottom: 20px;
 }
 
@@ -127,8 +136,9 @@
 }
 
 .section-subheading {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+  font-size: 1em;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }
 
 .section-description {
@@ -154,11 +164,41 @@
 }
 
 .brand-section-left a {
+  display: inline-block;
+  margin-top: 20px;
   color: #da1a84; /* Set the link color */
   text-decoration: none; /* Remove underline */
 }
 
 .brand-section-left a:hover {
   color: #da1a84; /* Keep the link color on hover */
-  text-decoration: underline; /* Add underline on hover for better UX */
+  text-decoration: none; /* Add underline on hover for better UX */
+}
+
+.view-more {
+  display: inline-block;
+  margin-top: 20px;
+  color: #000000; 
+  text-decoration: none;
+}
+
+.view-more:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.clients-section {
+  margin-top: 40px;
+}
+
+.clients-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clients-header h2 {
+  font-size: 2em;
+  margin: 0;
 }
